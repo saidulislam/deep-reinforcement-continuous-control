@@ -12,3 +12,5 @@ For this project, we were given two separate versions of the Unity environment:
 - The first version contains a single agent.
 - The second version contains 20 identical agents, each with its own copy of the environment.
 The second version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
+
+I couldn't get the second version to work and thus, for the project submission, I stuck to the single agent (first version).
