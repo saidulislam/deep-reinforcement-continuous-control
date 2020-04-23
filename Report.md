@@ -6,8 +6,8 @@ Deep Deterministic Policy Gradient (DDPG) is an algorithm which concurrently lea
 
 A good explanation with code can be found [here](https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b).
 
-Some characteristics of DDPG:
+# Some characteristics of DDPG:
 
-DDPG is an off-policy algorithm.
-DDPG can only be used for environments with continuous action spaces.
-DDPG can be thought of as being deep Q-learning for continuous action spaces.
+- DDPG is an off-policy algorithm.
+- DDPG can only be used for environments with continuous action spaces.
+- DDPG can be thought of as being deep Q-learning for continuous action spaces.
