@@ -28,3 +28,9 @@ Important project files:
 - ddpg_agent.py - DDPG Agent class
 - checkpoint_actor.pth - Actor trained model
 - checkpoint_critic.pth - Critic trained model
+
+## Objective
+The agent must get an average score of +30 over 100 consecutive episodes in order to solve the environment.
+
+## Approach to the Solution
+Continuous_Control.ipynb contains the high level steps and my training code. The solution uses a Deep Deterministic Policy Gradient approach with experience replay.
