@@ -14,3 +14,14 @@ For this project, we were given two separate versions of the Unity environment:
 The second version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
 
 I couldn't get the second version to work and thus, for the project submission, I stuck to the single agent (first version).
+
+## Running the Project
+I am using Jupyter Notebook for the project. Running all the cells from top to bottom in the notebook will install the necessary packages and train our agent.
+
+Important project files:
+
+- Continuous_Control.ipynb - Jupyter notebook project file.
+- model.py - Actor and Critic models
+- ddpg_agent.py - DDPG Agent class
+- checkpoint_actor.pth - Actor trained model
+- checkpoint_critic.pth - Critic trained model
