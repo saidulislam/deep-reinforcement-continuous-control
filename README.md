@@ -1,5 +1,8 @@
 ## Deep Reinforcement Learning Nanodegree (Udacity)
 ## Project 2: Continuous Control
+
+<img src="images/reacher.png" align="top-left" alt="" title="Plot" />
+
 For this project, I worked with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment and trained it using a Reinforcement Learning (RL) model  for continuous controls.
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
