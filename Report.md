@@ -21,3 +21,15 @@ Hyperparameters used:
 - LR_ACTOR = 2e-4         # learning rate of the actor 
 - LR_CRITIC = 2e-4        # learning rate of the critic
 - WEIGHT_DECAY = 0        # L2 weight decay
+
+## Plot of Rewards
+I couldn't get 20 agents working, so I used 1 agent and ran for 500 episodes.
+
+<img src="images/continuous_control.png" align="top-left" alt="" title="Plot" />
+
+## Ideas for Future Work
+- Training with 20 or multiple agents
+- Training using other algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
+- Tweaking the buffer size (increase)
+- Adding more timesteps for each episodes
+- Run more episodes
