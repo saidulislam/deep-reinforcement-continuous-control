@@ -24,7 +24,7 @@ Hyperparameters used:
 
 Model architecture:
 
-- I used Udacity's example code on DDPG. I experimented very little with the number of hidden layers and neurons as my training was taking too long and the average score was not improving (less than 1). I experimented mostly with hyperparameters. The architecture uses 2 fully connected hidden layers with ReLu activation function for both actor and critic.
+- I started with Udacity's example code on DDPG. I experimented very little with the number of hidden layers and neurons as my training was taking too long and the average score was not improving (stayed less than 1). I experimented mostly with hyperparameters and batch normalization. The architecture uses 2 fully connected hidden layers with ReLu activation function for both Actor and Critic. Based on some recommendations from other studends, I also used batch normalization in both Actor and Critic
 
 - Actor    
     - Hidden: (input, 128)  - ReLU
