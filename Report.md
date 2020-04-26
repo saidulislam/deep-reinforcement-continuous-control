@@ -22,6 +22,9 @@ Hyperparameters used:
 - LR_CRITIC = 2e-4        # learning rate of the critic
 - WEIGHT_DECAY = 0        # L2 weight decay
 
+Model architecture:
+I used Udacity's example code on DDPG. I experimented very little with the number of hidden layers.
+
 ## Plot of Rewards
 I couldn't get 20 agents working, so I used 1 agent and ran for 500 episodes.
 
