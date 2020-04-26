@@ -23,7 +23,7 @@ Hyperparameters used:
 - WEIGHT_DECAY = 0        # L2 weight decay
 
 Model architecture:
-I used Udacity's example code on DDPG. I experimented very little with the number of hidden layers.
+I used Udacity's example code on DDPG. I experimented very little with the number of hidden layers and neurons as my training was taking too long and the average score was not improving (less than 1). I experimented mostly with hyperparameters. The architecture uses 2 fully connected actor critic neural networks.
 
 ## Plot of Rewards
 I couldn't get 20 agents working, so I used 1 agent and ran for 500 episodes.
