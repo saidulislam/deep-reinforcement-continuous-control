@@ -26,15 +26,15 @@ Model architecture:
 
 - I used Udacity's example code on DDPG. I experimented very little with the number of hidden layers and neurons as my training was taking too long and the average score was not improving (less than 1). I experimented mostly with hyperparameters. The architecture uses 2 fully connected hidden layers with ReLu activation function for both actor and critic.
 
-* Actor
-** Hidden: (input, 256) - ReLU
-** Hidden: (256, 128) - ReLU
-** Output: (128, 4) - TanH
+- Actor    
+    - Hidden: (input, 128)  - ReLU
+    - Hidden: (128, 128)    - ReLU
+    - Output: (128, 4)      - TanH
 
-*Critic
-** Hidden: (input, 256) - ReLU
-** Hidden: (256 + action_size, 128) - ReLU
-** Output: (128, 1) - Linear
+- Critic
+    - Hidden: (input, 128)              - ReLU
+    - Hidden: (128 + action_size, 128)  - ReLU
+    - Output: (128, 1)                  - Linear
 
 ## Plot of Rewards
 I couldn't get 20 agents working, so I used 1 agent and ran for 500 episodes.
